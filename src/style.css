@@ -1,20 +1,36 @@
 body {
     background-image: url('images/pattern.jpg');
 }
-.h1 {
-    font: helvetica;
+.header {
+    background-color: pink;
+    height: 200px;
+    color: slategray;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    opacity: 80%;
     text-align: center;
-    top: 100px;
+    padding: 75px 10px 10px 10px;
+}
+.h1 {
+    text-align: center;
     position: relative;
     font-size: 40px;
 }
 .container-h {
-    color: black;
-    border-style: solid;
-    font-family: 'Potta One';
+    color: slategray;
+    font-family: 'Share Tech Mono';
     position: fixed;
     width: 100%;
-    top: 50px;
+    top: 200px;
+    height: 500px;
+}
+.container-s {
+    border-style: solid;
+}
+.button {
+    padding: 10px;
+    border-style: dashed;
+    border-width: 10px;
 }
 /* .prompt1 {
     background-color: rosybrown;
