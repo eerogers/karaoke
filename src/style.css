@@ -4,6 +4,10 @@ body {
 a {
     color: white;
 }
+label {
+    color: pink;
+    font-family: Advent Pro;
+}
 .header {
     background-color: slategray;
     height: 200px;
@@ -41,6 +45,12 @@ a {
     padding: 10px;
     border-style: dashed;
     border-width: 10px;
+}
+.signupForm {
+    border-style: solid;
+}
+#what {
+    color: black;
 }
 /* .prompt1 {
     background-color: rosybrown;
