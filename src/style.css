@@ -1,10 +1,13 @@
 body {
     background-image: url('images/pattern.jpg');
 }
+a {
+    color: white;
+}
 .header {
-    background-color: pink;
+    background-color: slategray;
     height: 200px;
-    color: slategray;
+    color: white;
     font-family: 'Press Start 2P', cursive;
     font-size: 30px;
     opacity: 80%;
@@ -25,7 +28,14 @@ body {
     height: 500px;
 }
 .container-s {
-    border-style: solid;
+    border-style: dashed;
+    border-width: 10px;
+    border-color: slategray;
+    width: 40%;
+    position: relative;
+    top: 50px;
+    height: 350px;
+    background-color: white;
 }
 .button {
     padding: 10px;
