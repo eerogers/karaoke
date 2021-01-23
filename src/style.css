@@ -1,0 +1,24 @@
+body {
+    background-image: url('images/pattern.jpg');
+}
+.h1 {
+    font: helvetica;
+    text-align: center;
+    top: 100px;
+    position: relative;
+    font-size: 40px;
+}
+.container-h {
+    color: black;
+    border-style: solid;
+    font-family: 'Potta One';
+    position: fixed;
+    width: 100%;
+    top: 50px;
+}
+/* .prompt1 {
+    background-color: rosybrown;
+    border-style: solid;
+    border-radius: 15px;
+    height: 300px;
+} */
