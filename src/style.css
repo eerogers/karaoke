@@ -18,6 +18,10 @@ label {
     text-align: center;
     padding: 75px 10px 10px 10px;
 }
+.title {
+    color: white;
+    background-color: slategray;
+}
 .h1 {
     text-align: center;
     position: relative;
