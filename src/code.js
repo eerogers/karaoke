@@ -11,6 +11,7 @@ var signinId
 var signinPassword
 var signupId
 var signupPassword
+var rePassword
 $(document).on("click", "#submitSignin", function(){
     signinId = $('#signinId').val()
     signinPassword = $('#signinPassword').val()
@@ -21,7 +22,9 @@ $(document).on("click", "#submitSignin", function(){
 $(document).on("click", "#submitSignup", function(){
      signupId = $('#signupId').val()
      signupPassword = $('#signupPassword').val()
-     console.log(signupId, signupPassword)
+     rePassword = $('#signupRePassword').val()
+     console.log(signupId, signupPassword, rePassword)
      $('#signupId').val('')
      $('#signupPassword').val('')
+     $('#signupRePassword').val('')
  });

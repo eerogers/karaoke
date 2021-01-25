@@ -5,8 +5,13 @@ a {
     color: white;
 }
 label {
-    color: pink;
-    font-family: Advent Pro;
+    color: slategray;
+    font-weight: bold;
+    font-family: 'Share Tech Mono';
+    font-size: 20px;
+}
+.labelAdjust {
+    padding-top: 10px;
 }
 .header {
     background-color: slategray;
@@ -22,18 +27,26 @@ label {
     color: white;
     background-color: slategray;
 }
+.signTitle {
+    color: black;
+    font-family: 'Bungee';
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+};
 .h1 {
     text-align: center;
     position: relative;
     font-size: 40px;
 }
 .container-h {
-    color: slategray;
+    color: black;
     font-family: 'Share Tech Mono';
     position: fixed;
     width: 100%;
     top: 200px;
     height: 500px;
+    padding: 0px;
 }
 .container-s {
     border-style: dashed;
@@ -55,6 +68,21 @@ label {
 }
 #what {
     color: black;
+}
+.inputBox {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
+.subButton {
+    background-color: black;
+    border-style: solid;
+    font-family: 'Bungee';
+    padding: 10px;
+    border-color: slategray;
+    color: white;
+    position: relative;
+    top: 15px;
 }
 /* .prompt1 {
     background-color: rosybrown;
