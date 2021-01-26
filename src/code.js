@@ -27,4 +27,10 @@ $(document).on("click", "#submitSignup", function(){
      $('#signupId').val('')
      $('#signupPassword').val('')
      $('#signupRePassword').val('')
+     if (signupPassword == rePassword) {
+        window.location.href = "mainpage.html"
+     }
+     else{
+         alert("Passwords must match!")
+     }
  });

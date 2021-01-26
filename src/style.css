@@ -23,11 +23,28 @@ label {
     text-align: center;
     padding: 75px 10px 10px 10px;
 }
+.hMainPage {
+    background-color: slategray;
+    height: 100px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    opacity: 80%;
+    text-align: center;
+    padding: 25px 10px 10px 10px;
+}
 .title {
     color: white;
     background-color: slategray;
 }
 .signTitle {
+    color: black;
+    font-family: 'Bungee';
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+};
+.vidTitle {
     color: black;
     font-family: 'Bungee';
     font-size: 20px;
